@@ -37,8 +37,8 @@ db.updateRole("find_and_insert", {
 
 // Add use with role
 db.createUser({
-    user: "eko",
-    pwd: "eko", 
+    user: "taopik",
+    pwd: "1q2w3e4r", 
     roles: [ "find_and_insert" ]
 });
 
@@ -79,6 +79,6 @@ db.products.updateOne({
 
 // Insert Customer [FAILED]
 db.customers.insertOne({
-    _id: "kurniawan",
-    name: "Eko Kurniawan Khannedy"
+    _id: "taopik",
+    name: "Muhamad Taopik"
 });
