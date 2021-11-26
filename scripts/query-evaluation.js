@@ -5,12 +5,12 @@ db.products.find({
     }
 });
 
-// select * from customers where toUpper(_id) = 'KHANNEDY'
+// select * from customers where toUpper(_id) = 'TAOPIK'
 db.customers.find({
     $expr: {
         $eq: [
             { $toUpper: "$_id" }, 
-            "KHANNEDY"
+            "TAOPIK"
         ]
     }
 });
@@ -78,9 +78,9 @@ db.products.find({
     }
 });
 
-// select * fro customers where _id = "khannedy"
+// select * from customers where _id = "taopik"
 db.customers.find({
     $where: function(){
-        return this._id == "khannedy";
+        return this._id == "taopik";
     }
 });
