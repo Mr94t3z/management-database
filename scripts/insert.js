@@ -1,7 +1,7 @@
 // Insert document customers
 db.customers.insertOne({
-    _id: "khannedy",
-    name: "Eko Kurniawan Khannedy"
+    _id: "taopik",
+    name: "Muhamad Taopik"
 });
 
 // Insert document products
