@@ -1,4 +1,4 @@
-// Use test database
+// use test database
 // use test;
 
 // create role
