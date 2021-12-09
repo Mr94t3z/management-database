@@ -43,7 +43,7 @@ db.createUser({
 });
 
 // Connect to mongo server
-// mongo --username eko --password eko --authenticationDatabase test
+// mongo --username taopik --password 1q2w3e4r --authenticationDatabase test
 
 // Insert product [SUCCESS]
 db.products.insert({
