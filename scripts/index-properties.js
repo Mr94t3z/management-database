@@ -37,5 +37,5 @@ db.customers.createIndex({
 db.customers.insertOne({
     _id: "gagal",
     full_name : "Gagal",
-    email: "eko@example.com"
+    email: "taopik@example.com"
 });
