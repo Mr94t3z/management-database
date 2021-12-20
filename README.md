@@ -24,9 +24,9 @@ execute ``docker-compose``
 docker-compose -f docker-compose.yml up -d
 ```
 
-run mongodb
+start mongodb
 ```
-docker run <images name>
+docker start <images name>
 ```
 
 access mongo server using terminal
