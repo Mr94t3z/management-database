@@ -196,3 +196,14 @@ db.orders.aggregate(
     }
     ]
  ).pretty()
+
+// Laporan per-item/customers
+ db.orders.aggregate([
+    { $project: {
+        name: 1,
+        items: 1,
+        total_bayar: { $sum: [ "$total", 1 ] }
+        
+      }
+    }
+ ]).pretty()
