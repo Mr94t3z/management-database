@@ -24,10 +24,16 @@ execute ``docker-compose``
 docker-compose -f docker-compose.yml up -d
 ```
 
+run mongodb
+```
+docker run <images name>
+```
+
 access mongo server using terminal
 ```
 docker exec -it <container name> /bin/sh
 ```
+
 server
 ```
 mongo --host localhost --port 27017
